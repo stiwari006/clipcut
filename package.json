@@ -1,0 +1,16 @@
+{
+  "name": "clipcut",
+  "version": "1.0.0",
+  "description": "Long video to short clips — runs in browser",
+  "scripts": {
+    "dev": "serve public -p 3000",
+    "build": "echo 'Static site, no build needed'",
+    "start": "serve public -p 3000"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
